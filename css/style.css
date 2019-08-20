@@ -1,0 +1,161 @@
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+.header {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.header_info {
+    margin-top: 43px; 
+}
+
+.header_infotop {
+    width: 100%;
+    margin: auto;
+}
+
+.header_info h4 {
+    margin-right: 20px;
+    font-size: 35px;
+    font-family: 'Regular', sans-serif;
+}
+
+button.start {
+    border-radius: 6%;
+    font-size: 15px;
+    color: #4090db!important;
+    border: 1px solid #4090db;
+    background-color: white;
+}
+
+.header_about {
+    display: flex;
+    margin-top: 20px;
+}
+
+.header_about p {
+    margin-right: 28px;
+}
+
+.header_about span {
+    font-weight: bold;
+}
+
+
+/* DATEPICKER */
+
+.datepicker {
+    margin-top: 20px;
+    display: flex;
+}
+
+.datepicker img {
+    cursor: pointer;
+}
+
+.datepicker p {
+    font-size: 17px;
+    font-family: 'Regular', sans-serif;
+    font-weight: 500;
+}
+
+input[type='text'] {
+    background-image: url(../img/calendar.png);
+    background-position: 100% 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#datepicker,
+#datefrom {
+    width: 150px;
+    border: 2px solid #ebebeb;
+    border-radius: 5%;
+    padding-left: 5px;
+    font-family: 'Regular', sans-serif;
+    font-size: 17px;
+    margin-left: 15px;
+
+}
+
+.posts {
+    background: #fafafa;
+    height: 100%;
+}
+
+.posts_block {
+    padding-top: 70px;
+    display: flex;
+}
+
+.block {
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.block_today {
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    color: #fff;
+    display: flex;
+}
+
+.block_today h3 {
+    margin-right: 50px;
+}
+
+.block_today p {
+    margin-right: 20px;
+}
+
+.block_when {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    color: #fff;
+    display: flex;
+}
+
+.block_when h3 {
+    margin-right: 23px;
+}
+
+.block_when p {
+    margin-right: 27px;
+}
+
+.block_comment {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    color: #fff;
+    display: flex;
+}
+
+.block_video {
+    position: absolute;
+    top: 2%;
+    left: 85%;
+}
+
+.button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 9px 30px 9px;
+    border-radius: 20%;
+}
